@@ -23,7 +23,8 @@
 
 
 .sidebar-compose i{
-    margin-right: 10px;
+    height: 20px;
+    margin-right: 15px;
     background-color: white;
     color: blue;
 }
@@ -60,7 +61,7 @@
 
 .msg-first-div i{
     position: relative;
-    left: 240px;
+    left: 555px;
     color: white;
     padding: 10px;
 }
@@ -75,7 +76,7 @@
 }
 
 .msg-second-div textarea{
-    width: 507px;
+    width: 645px;
     height: 275px;
     border: none;
     border-bottom: 1px groove;
@@ -84,50 +85,4 @@
 }
 
 
-
-.msg-third-div .send-btn{
-    display: flex;
-    align-items: center;
-    color: white;
-    background-color:blue;
-    padding: 5px;
-    margin-left: 5px;
-    margin-top: 0px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.msg-third-div .send-btn i{
-    color: white;
-    padding-left: 10px;
-}
-
-.msg-third-div{
-    display: flex;
-    align-items: center;
-    background-color: white;
-}
-
-.msg-third-div span{
-    padding: 2px;
-    font-size:1.5em;
-    cursor: pointer;
-}
-
-.msg-third-div span:hover{
-    background-color: gray;
-    border-radius: 50%; 
-}
-
-.msg-third-div .icon-one{
-    margin-left: 20px;
-}
-
-.msg-third-div .more-icon{
-    margin-left: 120px;
-}
-
-.msg-third-div .send-btn:hover{
-    background-color: gray;
-}
 
