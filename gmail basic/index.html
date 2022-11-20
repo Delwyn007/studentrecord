@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gmail</title>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-left">
+            <img src="newgmaillogo.jpg" alt="">
+    
+    
+    
+    <div class="side-bar" id="mySidebar">
+        <button class="sidebar-compose" onclick="openForm()">
+            <i class="fa fa-solid fa-plus fa-lg"></i>
+            Compose
+        </button>
+        </div>
+
+    <div class="form-popup" id="myForm">                           
+        <form  class="form-container">
+            <div class="msg-first-div">
+                <h2>New Message</h2>
+                <i class="fa fa-solid fa-ban" onclick="hideMyForm()"></i>
+            </div>
+            <div class="msg-second-div">
+                <input type="text" name="sending-to" placeholder="To" id="a">
+                <input type="text" name="subject" placeholder="Subject" id="a1">
+                <textarea name="" id="b" cols="30" rows="10"></textarea>
+            </div>
+            <div class="msg-third-div">
+                <a type="submit" onclick="val()" class="sur" id="sur">send</a>
+               
+                
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+.header-left img{
+    object-fit: contain;   
+    height: 70px;
+    cursor: pointer;
+}
+
+.sidebar-compose{
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: white;
+    padding: 15px 30px 15px 30px;   
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px;
+    font-size: large;
+    color: black;
+}
+
+
+.sidebar-compose i{
+    margin-right: 10px;
+    background-color: white;
+    color: blue;
+}
+
+
+
+
+.form-popup{
+    background-color: whitesmoke;
+    width: 70vh;
+    height: 60vh;
+    position: relative;
+    left: 800px;
+    top: 116px;
+    border-left: 1px groove;
+    border-right: 1px groove;
+    display: none;
+}
+
+
+.msg-first-div{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px groove;
+    background-color:rgb(54, 69, 79);
+    cursor: pointer;
+}
+
+.msg-first-div h2{
+    margin-left: 10px;
+    font-size: small;
+    color: white;
+}
+
+.msg-first-div i{
+    position: relative;
+    left: 240px;
+    color: white;
+    padding: 10px;
+}
+
+
+.msg-second-div input{
+    width: 95.4%;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px groove;
+    outline: none;                  
+}
+
+.msg-second-div textarea{
+    width: 507px;
+    height: 275px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+    padding: 10px;
+}
+
+
+
+.msg-third-div .send-btn{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:blue;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.msg-third-div .send-btn i{
+    color: white;
+    padding-left: 10px;
+}
+
+.msg-third-div{
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.msg-third-div span{
+    padding: 2px;
+    font-size:1.5em;
+    cursor: pointer;
+}
+
+.msg-third-div span:hover{
+    background-color: gray;
+    border-radius: 50%; 
+}
+
+.msg-third-div .icon-one{
+    margin-left: 20px;
+}
+
+.msg-third-div .more-icon{
+    margin-left: 120px;
+}
+
+.msg-third-div .send-btn:hover{
+    background-color: gray;
+}
+
